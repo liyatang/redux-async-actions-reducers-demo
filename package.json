@@ -1,0 +1,37 @@
+{
+  "name": "redux-async-actions-reduces-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --host 0.0.0.0 --port 7000 --devtool eval --progress --color --profile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyatang/redux-async-actions-reduces-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liyatang/redux-async-actions-reduces-demo/issues"
+  },
+  "homepage": "https://github.com/liyatang/redux-async-actions-reduces-demo#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "fbjs": "^0.8.2",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.4.0",
+    "redux": "^3.5.2",
+    "redux-async-actions-reducers": "^1.0.2",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
