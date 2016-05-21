@@ -2,7 +2,7 @@ var config = {
     entry: './index',
     output: {
         filename: 'bundle.js',
-        publicPath: '/redux-async-actions-reduces-demo/'
+        publicPath: '/redux-async-actions-reducers-demo/'
     },
     module: {
         loaders: [

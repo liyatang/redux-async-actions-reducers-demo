@@ -1,5 +1,5 @@
 {
-  "name": "redux-async-actions-reduces-demo",
+  "name": "redux-async-actions-reducers-demo",
   "version": "1.0.0",
   "description": "",
   "main": ".eslintrc.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liyatang/redux-async-actions-reduces-demo.git"
+    "url": "git+https://github.com/liyatang/redux-async-actions-reducers-demo.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/liyatang/redux-async-actions-reduces-demo/issues"
+    "url": "https://github.com/liyatang/redux-async-actions-reducers-demo/issues"
   },
-  "homepage": "https://github.com/liyatang/redux-async-actions-reduces-demo#readme",
+  "homepage": "https://github.com/liyatang/redux-async-actions-reducers-demo#readme",
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-core": "^6.9.0",
