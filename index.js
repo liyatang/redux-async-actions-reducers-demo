@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider, connect} from 'react-redux';
 import {bindAsyncActions, createStore} from 'redux-async-actions-reducers';
-import {Router, Route, hashHistory, Link} from 'react-router';
+import {Router, Route, hashHistory, Link, IndexRoute} from 'react-router';
 import reducers from './reducers';
 import actions from './actions';
 
@@ -34,6 +34,12 @@ class App extends React.Component {
     }
 }
 
+class Home extends React.Component {
+    render() {
+        return <div>home</div>;
+    }
+}
+
 let ConnectApp = connect(state => state, dispatch => ({
     actions: bindAsyncActions(actions, dispatch)
 }))(App);
@@ -54,6 +60,7 @@ const Root = (
     <Provider store={createStore(reducers)}>
         <Router history={hashHistory}>
             <Route path="/" component={ConnectApp}>
+                <IndexRoute component={Home}></IndexRoute>
                 <Route path="a" getComponent={A}></Route>
                 <Route path="b" getComponent={B}></Route>
             </Route>
