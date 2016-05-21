@@ -15,7 +15,7 @@ class App extends React.Component {
                 <button className="btn btn-default" onClick={::this.handleClick}>global hello</button>
 
                 <hr/>
-                导航
+                router
                 <ul>
                     <li><Link to="/a">a</Link></li>
                     <li><Link to="/b">b</Link></li>
@@ -49,7 +49,6 @@ const B = (location, cb) => {
         cb(null, require('./b/index').default);
     });
 };
-
 
 const Root = (
     <Provider store={createStore(reducers)}>
