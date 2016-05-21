@@ -10,8 +10,8 @@ class Component extends React.Component {
 
     render() {
         return (
-            <div onClick={this.handleClick}>
-                a业务
+            <div>
+                a业务 {this.props.a.name}
                 <button className="btn btn-default" onClick={::this.handleClick}>hello</button>
             </div>
         );

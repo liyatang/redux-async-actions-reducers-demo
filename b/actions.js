@@ -3,10 +3,17 @@ import actionTypes from './action.types';
 
 let actions = {};
 
-actions.b_hello = function () {
+actions.b_hello1 = function () {
     return {
-        type: actionTypes.B_HELLO,
-        name: 'i am a'
+        type: actionTypes.B_HELLO1,
+        name: 'i am b1'
+    };
+};
+
+actions.b_hello2 = function () {
+    return {
+        type: actionTypes.B_HELLO2,
+        name: 'i am b2'
     };
 };
 

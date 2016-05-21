@@ -10,15 +10,22 @@ class Component extends React.Component {
 
     render() {
         return (
-            <div onClick={this.handleClick}>
-                a业务
-                <button className="btn btn-default" onClick={::this.handleClick}>hello</button>
+            <div>
+                b业务 {this.props.b.b_1.name}
+                <button className="btn btn-default" onClick={::this.handleClick1}>hello 1</button>
+                <hr/>
+                b业务 {this.props.b.b_2.name}
+                <button className="btn btn-default" onClick={::this.handleClick2}>hello 2</button>
             </div>
         );
     }
 
-    handleClick() {
-        this.props.actions.b_hello();
+    handleClick1() {
+        this.props.actions.b_hello1();
+    }
+
+    handleClick2() {
+        this.props.actions.b_hello2();
     }
 }
 
