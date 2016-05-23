@@ -1,5 +1,9 @@
 var config = {
-    entry: './index',
+    entry: [
+        'core-js/es6/object.js',
+        'core-js/es6/promise.js',
+        './index'
+    ],
     output: {
         filename: 'bundle.js',
         publicPath: '/redux-async-actions-reducers-demo/'
